@@ -1,0 +1,148 @@
+
+
+.pagina-filme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: rgb(234, 234, 234);
+    font-size: 30px;
+
+    .voltar {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 18px;
+    }
+   
+
+
+    
+
+
+
+    .container {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px 10px #dedede;
+
+    }
+
+   
+
+
+}
+
+.cabecalho-filme{
+    background-image: url('../../../public/assets/images/filme.png');
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 80vh;
+    background-size: 100%;
+}
+
+.filme{
+    color: #fff;
+    width: 10vh;
+    font-size: 30px;
+    padding: 2px 10px;
+    margin-bottom: -18vh;
+    margin-left: 2vh;
+    position: relative;
+    background: hsl(0, 0%, 0%, 0.5);
+    border-radius: 5px;
+}
+
+.text1{
+    font-size: 20px;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+
+.pesq{
+
+    border: 1px solid rgba(197, 188, 77, 1);
+    width: 70vh;
+    margin-left: 5vh;
+    height: 6vh;
+}
+
+.pesq p{
+    font-size: 15px;
+    margin-top: 0vh;
+    color: rgba(197, 188, 77, 1);
+    margin-left: 1vh;
+}
+
+.digitar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -1vh;
+}
+
+.digitar input{
+    border: none;
+    width: 80vh;
+}
+
+.btn1{
+    background: none;
+    border: none;
+    margin-top: -1vh;
+}
+
+.lista-filmes{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 150px;
+    align-items: center;
+    cursor: pointer;
+  transition: border 0.3s;
+  margin-bottom: 3vh; 
+  
+  scroll-behavior: smooth;
+}
+
+.lista-filmes:hover {
+    background-color: rgba(197, 188, 77, 1); 
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+.last ul{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 30vh;
+    width: 75vh;
+}
+
+.classes{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vh;
+    margin-left: 5vh;
+    margin-top: 4vh;
+    color: rgba(160, 150, 13, 1) ;
+}
+
+
+.logo-filme {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-left: -15vh;
+    display: none;
+  }
+
+  .lista-filmes:hover .logo-filme {
+    display: block; /* Mostra a imagem quando o mouse estiver sobre o filme */
+  }

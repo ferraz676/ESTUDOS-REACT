@@ -1,0 +1,132 @@
+.pagina-correio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: rgb(234, 234, 234);
+    font-size: 30px;
+    flex-direction: column;
+
+    .titulo{
+        margin-bottom: 15vh;
+        font-size: 25px;
+        color: #838181;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        padding: unset;
+        height: 50vh;
+        width: 90vh;
+    }
+
+    .bloco1 img{
+        height: 50%;
+        margin-left: -4vh;
+        }
+
+        .cab{
+            display: flex;
+            flex-direction: row;
+            background-color: #ffffff;
+            width: 100%;
+            height: 7vh;
+            align-items: center;
+            margin-top: -21vh;
+            margin-bottom: 14vh;
+        }
+
+        .cab div{
+            font-size: 20px;
+            color: #838181;
+        }
+
+        .cab img{
+            padding-left: 20px;
+            margin-right: 10px;
+        }
+
+
+    .p1{
+        margin-left: -18vh;
+        margin-bottom: 5vh;
+    }
+
+    .p1 h1{
+        font-size: 20px;
+    }
+
+    .p2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .p2 div h1{
+        font-size: 20px;
+    }
+
+    .bloco1{
+        display: flex;
+        background-color: #818080;
+        padding: 100px 100px;
+        margin: 0 !important;
+        margin-bottom: unset;
+        align-items: center;
+    }
+
+    .bloco1 img{
+        padding: 0px;
+
+    }
+
+    .bloco2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        font-size: 22px;
+        padding: 20px 20px;
+        margin: 5px;
+        border: 1px solid rgb(163, 162, 162);
+        border-radius: 3px;
+    }
+
+    .calcular-btn{
+        background-color: aqua;
+        padding: 20px 150px;
+        margin-left: 3vh;
+        font-size: 30px;
+        text-align: center;
+        height: unset;
+        border-radius: 10px;
+    }
+
+    .parcela h1{
+        font-size: 25px;
+        color: #818080;
+        margin-left: -21vh;
+        margin-top: 3vh;
+        margin-left: -19vh !important;
+    }
+
+    .Valor-total h1{
+        margin-left: -19vh !important;
+        font-size: 25px;
+        color: #818080;
+        margin-left: -21vh;
+
+    }
+
+   
+
+    
+    
+
+}
